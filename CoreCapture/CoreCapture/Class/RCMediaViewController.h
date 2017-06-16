@@ -18,7 +18,7 @@ FOUNDATION_EXTERN NSString *const RCMediaVideoInfo;
 
 @protocol RCMediaViewControllerDelegate <NSObject>
 
-- (void)rc_mediaController:(RCMediaViewController *)media didFinishPickingMediaWithInfo:(NSDictionary *)info;
+- (void)rc_mediaController:(RCMediaViewController *)media didFinishPickingMediaWithInfo:(NSDictionary<NSString *, NSObject *> *)info;
 
 - (void)rc_mediaControlelrDidCancel:(RCMediaViewController *)media;
 
