@@ -26,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		894CA77D1EF3C8F7005646D6 /* rc_img.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = rc_img.bundle; sourceTree = "<group>"; };
+		894CA77F1EF3D048005646D6 /* CoreCaptureHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreCaptureHeader.h; sourceTree = "<group>"; };
 		89B4701D1EF3C35F00FC0401 /* CoreCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B470211EF3C35F00FC0401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89B470231EF3C35F00FC0401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				89B470381EF3C39400FC0401 /* Class */,
+				894CA77F1EF3D048005646D6 /* CoreCaptureHeader.h */,
 			);
 			path = CoreCapture;
 			sourceTree = "<group>";
